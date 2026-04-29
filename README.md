@@ -31,12 +31,18 @@ The approach combines:
 
 ---
 
-## 📊 Results
-- Accuracy: **73.33 ± 5.42 %**
-- F1 Score: **78.20 ± 5.37 %**
-- Feature reduction: **~62%**
-- Average selected features: **18**
+## Experimental Results
 
+The model was evaluated using stratified 5-fold cross-validation.
+
+- Accuracy: **73.33 ± 10.37 %**
+- F1 Score: **79.10 ± 8.68 %**
+- Average selected features: **~16**
+
+### Sample Output
+
+![Results](results_output.png)
+The variation in performance across folds reflects the complexity and variability of clinical datasets, highlighting the importance of robust feature selection and adaptive modeling.
 ---
 
 ## Key Insights
@@ -60,6 +66,7 @@ The dataset is sourced from the UCI Machine Learning Repository and contains cli
 
 ## Research Paper
 The detailed methodology and results are documented in the attached paper:
+
 
 📎 See: `HCC_Dissertation_Paper.pdf`
 
